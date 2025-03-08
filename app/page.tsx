@@ -1,4 +1,10 @@
 import Card from "@/components/Card";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Love Card",
+  description: "Biglietto di auguri per la festa della donna personalizzabile",
+};
 export default async function Page({
   searchParams,
 }: {
